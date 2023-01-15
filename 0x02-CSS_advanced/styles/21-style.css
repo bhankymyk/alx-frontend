@@ -384,6 +384,7 @@
     /* alignments */
     --section-header-align: center;
     --section-tagline-transform: uppercase;
+    --section-tagline-margin:0;
 
     /* margin */
     --section-title-margin: 0;
@@ -404,10 +405,6 @@
         --nav-item-display: inline-block;
         --nav-item-margin: 0 0  3rem 0;
         --nav-item-link-hover: var(--color-primary);
-    
-
-        --section-tagline-margin:0;
-        
     }
     
     *, *:before, *:after {
@@ -417,7 +414,7 @@
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 body {
