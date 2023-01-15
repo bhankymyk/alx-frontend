@@ -439,7 +439,7 @@ a:active {
 }
 
 .section{
-    section-padding:var(--section-padding)
+    padding:var(--section-padding)
 }
 
 .section-header {
