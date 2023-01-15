@@ -495,6 +495,7 @@ a:active {
 .nav{
     margin: 0;
     padding: 0;
+    list-style: none;
     text-align: center;
 }
 .nav .nav-item {
@@ -512,5 +513,4 @@ a:active {
 
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
-
 }
