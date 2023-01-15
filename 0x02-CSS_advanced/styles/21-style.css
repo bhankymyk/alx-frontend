@@ -407,9 +407,14 @@
     
 
         --section-tagline-margin:0;
-}
+        
+    }
+    
+    *, *:before, *:after {
+        box-sizing: border-box;
+    }
 
-html{
+html {
     scroll-behavior: smooth;
     font-size: 62.5%;
     box-sizing: border-box;
